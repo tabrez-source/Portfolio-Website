@@ -10,7 +10,7 @@ const repositoryUrl =
   "https://github.com/tabrez-source/NovaTrade-Sales-Inventory-Analytics";
 const releaseUrl = `${repositoryUrl}/releases/tag/v1.0.0`;
 const showcaseUrl =
-  "https://novatrade-analytics.shaikhtabrez56.chatgpt.site";
+  "https://novatrade.shamshtabrez.com";
 const resumeUrl = "/resume/Shamsh_Tabrez_Shaikh_Data_BI_Resume.pdf";
 
 const navItems = [
@@ -24,7 +24,8 @@ const profileSchema = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   name: "Shamsh Tabrez Shaikh - Data & BI Portfolio",
-  url: "https://shamsh-tabrez-portfolio.shaikhtabrez56.chatgpt.site",
+  url: "https://shamshtabrez.com",
+  dateModified: "2026-08-11",
   mainEntity: {
     "@type": "Person",
     name: "Shamsh Tabrez Shaikh",
@@ -146,26 +147,26 @@ export default function Home() {
             </a>
           </div>
           <div className="availability">
-            <span aria-hidden="true" /> Open to Data Analyst, BI Analyst, Reporting
-            Analyst, and Power BI opportunities
+            <span aria-hidden="true" /> Actively seeking Data Analyst, BI Analyst,
+            Reporting Analyst, and Power BI opportunities
           </div>
         </div>
 
         <a className="hero-proof" href={showcaseUrl} target="_blank" rel="noreferrer" aria-label="Open the NovaTrade showcase website">
           <div className="proof-topline">
-            <span>Featured release</span>
+            <span>Released · Service validated</span>
             <strong>NovaTrade v1.0.0</strong>
           </div>
           <Image
-            src="/novatrade/01-executive-overview.png"
+            src="/novatrade/release-2026-08-10/01-executive-overview-2025-all.png"
             alt="NovaTrade Power BI Executive Overview with sales, orders, units, distributor reach, trends, and regional performance"
-            width="1317"
-            height="732"
+            width="4800"
+            height="2734"
             unoptimized
             priority
           />
           <div className="proof-caption">
-            <span>SQL Server → Star Schema → Power BI</span>
+            <span>SQL Server → Star Schema → Power BI Service</span>
             <span>Open case study <Arrow /></span>
           </div>
         </a>
@@ -175,7 +176,7 @@ export default function Home() {
         <article><strong>1.35M+</strong><span>validated fact records</span></article>
         <article><strong>81</strong><span>documented DAX measures</span></article>
         <article><strong>5</strong><span>decision-focused report pages</span></article>
-        <article><strong>11 / 11</strong><span>release checks passed</span></article>
+        <article><strong>12 / 12</strong><span>validators passed</span></article>
       </section>
 
       <section className="section work-section" id="work">
@@ -194,7 +195,7 @@ export default function Home() {
         <article className="project-card">
           <div className="project-copy">
             <div className="project-title">
-              <span>Released · v1.0.0</span>
+              <span>Released · Service validated</span>
               <h3>NovaTrade Sales &amp; Inventory Analytics</h3>
             </div>
             <p className="project-lead">
@@ -210,13 +211,13 @@ export default function Home() {
             <div className="architecture" aria-label="NovaTrade data architecture">
               <span>Source files</span><i>→</i><span>SQL Server</span><i>→</i>
               <span>Star schema</span><i>→</i><span>DAX + RLS</span><i>→</i>
-              <span>Power BI</span>
+              <span>Power BI Service</span>
             </div>
 
             <ul className="project-proof">
               <li><strong>Business:</strong> executive, sales, product, inventory, and management decisions</li>
-              <li><strong>Engineering:</strong> PBIP/TMDL, dynamic branch-level RLS, validation, and CI</li>
-              <li><strong>Evidence:</strong> public repository, release package, documentation, and case-study site</li>
+              <li><strong>Engineering:</strong> PBIP/TMDL, dynamic branch-level RLS, 12 automated validators, and CI</li>
+              <li><strong>Evidence:</strong> public repository, release package, Service deployment, synthetic-persona RLS proof, and case-study site</li>
             </ul>
 
             <div className="project-actions">
@@ -228,10 +229,10 @@ export default function Home() {
 
           <figure className="project-image">
             <Image
-              src="/novatrade/05-management-insights.png"
+              src="/novatrade/release-2026-08-10/05-management-insights-2025-all.png"
               alt="NovaTrade Management Insights report showing performance exceptions and management actions"
-              width="1310"
-              height="728"
+              width="4800"
+              height="2734"
               unoptimized
             />
             <figcaption>Management Insights · one of five released report pages</figcaption>
