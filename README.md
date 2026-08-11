@@ -2,9 +2,9 @@
 
 Source code for my professional portfolio as a Data Analyst and Power BI Developer in Ontario, Canada.
 
-[View the live portfolio](https://shamsh-tabrez-portfolio.shaikhtabrez56.chatgpt.site) | [Explore NovaTrade](https://novatrade-analytics.shaikhtabrez56.chatgpt.site) | [NovaTrade repository](https://github.com/tabrez-source/NovaTrade-Sales-Inventory-Analytics)
+[View the live portfolio](https://shamshtabrez.com) | [Explore NovaTrade](https://novatrade.shamshtabrez.com) | [NovaTrade repository](https://github.com/tabrez-source/NovaTrade-Sales-Inventory-Analytics)
 
-![NovaTrade Executive Overview featured in the portfolio](public/novatrade/01-executive-overview.png)
+![NovaTrade Executive Overview featured in the portfolio](public/novatrade/release-2026-08-10/01-executive-overview-2025-all.png)
 
 ## About the portfolio
 
