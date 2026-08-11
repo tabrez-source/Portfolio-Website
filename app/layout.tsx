@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    "https://shamsh-tabrez-portfolio.shaikhtabrez56.chatgpt.site",
+    "https://shamshtabrez.com",
   ),
   title: "Shamsh Tabrez Shaikh | Data Analyst & Power BI",
   description:
-    "Ontario Data Analyst and Power BI Developer portfolio featuring NovaTrade: SQL Server, dimensional modeling, DAX, Power Query, RLS, and validated BI reporting.",
+    "Ontario Data Analyst and Power BI Developer portfolio featuring NovaTrade: SQL Server, dimensional modeling, DAX, Power Query, automated validation, Power BI Service, and dynamic RLS.",
   keywords: [
     "Shamsh Tabrez Shaikh",
     "Data Analyst Ontario",
@@ -51,16 +51,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shamsh Tabrez Shaikh | Data Analyst & Power BI",
     description:
-      "Data & BI portfolio featuring NovaTrade v1.0.0: SQL Server, dimensional modeling, DAX, dynamic RLS, validation, and decision-ready Power BI reporting.",
+      "Data & BI portfolio featuring NovaTrade v1.0.0: SQL Server, dimensional modeling, DAX, Power BI Service, dynamic RLS, validation, and decision-ready reporting.",
     type: "website",
     url: "/",
     siteName: "Shamsh Tabrez Shaikh - Data & BI Portfolio",
     locale: "en_CA",
     images: [
       {
-        url: "/novatrade/01-executive-overview.png",
-        width: 1317,
-        height: 732,
+        url: "/novatrade/release-2026-08-10/01-executive-overview-2025-all.png",
+        width: 4800,
+        height: 2734,
         alt: "NovaTrade Power BI Executive Overview",
       },
     ],
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     title: "Shamsh Tabrez Shaikh | Data Analyst & Power BI",
     description:
       "Ontario Data & BI portfolio featuring an end-to-end SQL Server and Power BI analytics platform.",
-    images: ["/novatrade/01-executive-overview.png"],
+    images: ["/novatrade/release-2026-08-10/01-executive-overview-2025-all.png"],
   },
   other: {
     "codex-preview": "development",
