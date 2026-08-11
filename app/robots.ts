@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
   const baseUrl =
-    "https://shamsh-tabrez-portfolio.shaikhtabrez56.chatgpt.site";
+    "https://shamshtabrez.com";
 
   return {
     rules: {
