@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     "https://shamshtabrez.com",
   ),
-  title: "Shamsh Tabrez Shaikh | Data Analyst & Power BI",
+  title: "Shamsh Tabrez Shaikh | BI & Data Analyst",
   description:
-    "Ontario Data Analyst and Power BI Developer portfolio featuring NovaTrade: SQL Server, dimensional modeling, DAX, Power Query, automated validation, Power BI Service, and dynamic RLS.",
+    "BI & Data Analyst in Ontario. Explore NovaTrade's SQL Server and Power BI platform, data modeling evidence, and a synthetic Microsoft Fabric project in development.",
   keywords: [
     "Shamsh Tabrez Shaikh",
     "Data Analyst Ontario",
@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     "Dimensional Modeling",
     "Business Intelligence",
     "BI Analyst Canada",
+    "Data Warehousing",
+    "ETL",
+    "Microsoft Fabric",
+    "Manufacturing Analytics",
   ],
   authors: [{ name: "Shamsh Tabrez Shaikh" }],
   creator: "Shamsh Tabrez Shaikh",
@@ -49,9 +53,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Shamsh Tabrez Shaikh | Data Analyst & Power BI",
+    title: "Shamsh Tabrez Shaikh | BI & Data Analyst",
     description:
-      "Data & BI portfolio featuring NovaTrade v1.0.0: SQL Server, dimensional modeling, DAX, Power BI Service, dynamic RLS, validation, and decision-ready reporting.",
+      "Business Intelligence, data architecture, and manufacturing analytics. Inspect the released NovaTrade platform and Manufacturing Intelligence's Fabric work in progress.",
     type: "website",
     url: "/",
     siteName: "Shamsh Tabrez Shaikh - Data & BI Portfolio",
@@ -67,9 +71,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shamsh Tabrez Shaikh | Data Analyst & Power BI",
+    title: "Shamsh Tabrez Shaikh | BI & Data Analyst",
     description:
-      "Ontario Data & BI portfolio featuring an end-to-end SQL Server and Power BI analytics platform.",
+      "BI & Data Analyst in Ontario. Released SQL Server and Power BI work, with Microsoft Fabric manufacturing analytics in development.",
     images: ["/novatrade/release-2026-08-10/01-executive-overview-2025-all.png"],
   },
   other: {
