@@ -41,11 +41,11 @@ test("renders recruiter content and complete SEO metadata", async () => {
   const html = await response.text();
 
   assert.equal(response.status, 200);
-  assert.match(html, /<link rel="canonical" href="https:\/\/shamsh-tabrez-portfolio\.shaikhtabrez56\.chatgpt\.site\/"/i);
+  assert.match(html, /<link rel="canonical" href="https:\/\/shamshtabrez\.com\/"/i);
   assert.match(html, /"@type":"ProfilePage"/);
-  assert.match(html, /Turning operational data into trusted business decisions/);
-  assert.match(html, /href="\/resume\/Shamsh_Tabrez_Shaikh_Data_BI_Resume\.pdf"/);
-  assert.match(html, /https:\/\/novatrade-analytics\.shaikhtabrez56\.chatgpt\.site/);
+  assert.match(html, /BI &amp; Data Analyst building reliable data products/);
+  assert.match(html, /href="\/resume\/Shamsh_Tabrez_RecruiterStory_Data_BI_Analyst_OnePage\.pdf"/);
+  assert.match(html, /https:\/\/novatrade\.shamshtabrez\.com/);
 });
 
 test("serves robots and sitemap routes", async () => {

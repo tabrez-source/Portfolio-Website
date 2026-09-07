@@ -285,6 +285,21 @@ img { max-width: 100%; }
 .project-image img { display: block; width: 100%; height: auto; border: 1px solid rgba(16, 42, 67, 0.16); border-radius: 0.72rem; background: white; box-shadow: 0 18px 42px rgba(16, 42, 67, 0.14); }
 .project-image figcaption { margin-top: 0.75rem; color: var(--muted); font-size: 0.63rem; text-align: right; }
 
+.evidence-links { display: flex; flex-wrap: wrap; gap: 0.8rem 1.2rem; margin-top: 1.5rem; }
+.manufacturing-card { margin-top: 2rem; }
+.manufacturing-evidence { min-width: 0; padding: clamp(1.5rem, 4vw, 3rem); background: #edf2ef; }
+.manufacturing-evidence .section-label { font-size: 0.875rem; line-height: 1.6; letter-spacing: 0.06em; }
+.manufacturing-evidence h4 { margin: 1.25rem 0 1.75rem; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.75rem, 2.5vw, 2.5rem); font-weight: 500; line-height: 1.15; }
+.pipeline-stages { display: grid; gap: 1.1rem; margin: 0; padding: 0; list-style: none; }
+.pipeline-stages li { padding: 0 0 1.1rem 1rem; border-left: 2px solid var(--teal); border-bottom: 1px solid var(--stone); }
+.pipeline-stages li:last-child { border-left-style: dashed; }
+.pipeline-stages strong { display: block; margin-top: 0.5rem; font-size: 1rem; line-height: 1.5; }
+.pipeline-stages p { margin: 0.4rem 0 0; color: var(--muted); font-size: 1rem; line-height: 1.6; }
+.stage-state { color: var(--teal-dark); font-size: 0.875rem; font-weight: 750; }
+.stage-state.planned { color: var(--ink); }
+.checkpoint-note { margin: 1.3rem 0 0; color: var(--muted); font-size: 0.875rem; line-height: 1.65; }
+.project-copy > p.project-boundary { margin-top: 1.25rem; font-size: 0.875rem; }
+
 .about-section { width: 100%; background: var(--navy); color: white; }
 .about-inner { padding-top: 7rem; padding-bottom: 7rem; }
 .light .section-label { color: #70c9c3; }
@@ -297,6 +312,11 @@ img { max-width: 100%; }
 .credentials article > span { color: var(--gold); font-size: 0.68rem; font-weight: 760; }
 .credentials strong { font-family: Georgia, "Times New Roman", serif; font-size: 1rem; font-weight: 600; }
 .credentials p { margin: 0.32rem 0 0; color: #9fb1c2; font-size: 0.68rem; }
+
+.career-journey { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; margin: 3rem 0 0; padding: 2rem 0 0; border-top: 1px solid rgba(255, 255, 255, 0.18); list-style: none; }
+.career-journey li > span { display: block; margin-bottom: 0.6rem; color: var(--gold); font-size: 0.875rem; font-weight: 750; }
+.career-journey strong { display: block; font-size: 1rem; line-height: 1.5; }
+.career-journey p { margin: 0.4rem 0 0; color: #adbdca; font-size: 0.875rem; line-height: 1.6; }
 
 .skill-grid { display: grid; grid-template-columns: repeat(4, 1fr); overflow: hidden; border: 1px solid var(--stone); border-radius: 1rem; background: var(--paper); }
 .skill-grid article { min-height: 410px; padding: 2rem 1.6rem; border-right: 1px solid var(--stone); }
@@ -311,6 +331,10 @@ img { max-width: 100%; }
 .delivery-card p,
 .delivery-card li { color: #adbdca; }
 .delivery-card ul { border-top-color: rgba(255, 255, 255, 0.18); }
+.skill-evidence { display: inline-block; margin-top: 1.5rem; }
+.delivery-card .skill-evidence { color: #70c9c3; }
+.developing-note { margin: 1.5rem 0 0; color: var(--muted); font-size: 1rem; line-height: 1.8; }
+.developing-note strong { color: var(--navy); }
 
 .contact-section { width: min(1200px, calc(100% - 72px)); margin: 1rem auto 0; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr); align-items: end; gap: 4rem; padding: clamp(3rem, 7vw, 5.5rem); border-radius: 1.2rem; background: var(--teal); color: white; }
 .contact-section .section-label { color: #d6f0ed; }
@@ -404,4 +428,54 @@ footer > p { grid-column: 1 / -1; margin: 0; padding-bottom: 1rem; color: var(--
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Retain the established layout with readable copy and evidence links. */
+.hero-lead,
+.section-heading > p,
+.project-copy > p:not(.project-lead):not(.project-boundary),
+.about-story p:not(.about-lead),
+.skill-grid p,
+.skill-grid li,
+.contact-section p { font-size: 1rem; }
+.site-header nav a,
+.resume-cta,
+.button,
+.text-link,
+.availability,
+.proof-strip span,
+.project-proof li,
+.credentials p,
+.footer-links { font-size: 0.875rem; }
+.eyebrow,
+.section-label,
+.proof-topline span,
+.proof-topline strong,
+.proof-caption,
+.project-title > span,
+.project-image figcaption,
+.credentials article > span,
+.skill-index,
+footer > p { font-size: 0.8125rem; }
+.architecture span { font-size: 0.875rem; }
+.hero-actions .text-link { padding: 0.65rem 0; }
+.footer-links { flex-wrap: wrap; justify-content: flex-end; }
+.skill-grid h3,
+.skill-grid p { min-height: 0; }
+.evidence-links a:focus-visible,
+.skill-evidence:focus-visible,
+.developing-note a:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+
+@media (max-width: 740px) {
+  .career-journey { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+  .proof-topline, .proof-caption { flex-wrap: wrap; }
+  .footer-links { justify-content: flex-start; }
+}
+
+@media (max-width: 420px) {
+  .career-journey { grid-template-columns: 1fr; }
+  .brand { max-width: 100%; width: auto; font-size: 0.875rem; }
+  .brand small { font-size: 0.6875rem; letter-spacing: 0.03em; }
+  .site-header nav { gap: 1.25rem; }
+  .resume-cta { padding: 0.56rem; font-size: 0.8125rem; }
 }
